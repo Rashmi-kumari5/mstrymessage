@@ -34,3 +34,33 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# # Ignore Windows system directories
+# Application Data/
+# Cookies/
+# Local Settings/
+# My Documents/
+# NetHood/
+# PrintHood/
+# Recent/
+# SendTo/
+# Start Menu/
+# Templates/
+
+# # Ignore specific user files and directories
+# .VirtualBox/
+# .android/
+# .bash_history
+# .cache/
+# .docker/
+# .eclipse/
+# .gradle/
+# .idlerc/
+# .jdks/
+# .m2/
+# .ssh/
+# .vscode/
+# Downloads/
+# OneDrive/
+# Videos/
