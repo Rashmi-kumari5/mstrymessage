@@ -1,0 +1,1 @@
+ match: [/.+\@.+\..+/, 'Please use a valid email address'],
