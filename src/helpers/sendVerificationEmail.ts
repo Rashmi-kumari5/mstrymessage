@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import VerificationEmail from "@/emails/VerificationEmail";
 import { resend } from "@/lib/resend";
 import { apiResponse } from "@/types/apiResponse";
@@ -15,7 +16,7 @@ export async function sendVerificationEmail(
             from:'onboarding@resend.dev',
             to:email,
             subject:'mystry mssg',
-            react:VerificationEmail({username,otp:verifycode})
+            react:VerificationEmail({username,otp:verifycode}),
 
         });
         // console.log('Successfully sent verification email.')
